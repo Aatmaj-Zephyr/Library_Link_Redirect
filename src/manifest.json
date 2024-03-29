@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Somaiya Library Link Redirect",
+    "version": "1.0",
+    "description": "Redirects IEEE Xplore links from Somaiya Library to main site",
+    "icons": {
+        "16": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
