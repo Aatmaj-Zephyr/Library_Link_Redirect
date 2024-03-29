@@ -16,12 +16,20 @@ function redirectURL(url) {
           "https://ieeexplore.ieee.org/",
           "https://ieeexplore-ieee-org.library.somaiya.edu/",
         );
-      } else if (url.includes("dl.acm")) {
+      } else if (url.includes("dl.acm.org")) {
         url = url.replace(
           "https://dl.acm.org/",
           "https://dl-acm-org.library.somaiya.edu/",
         );
-      }
+  }
+  else if (url.includes("link.springer.com")) {
+        url = url.replace(
+          "https://link.springer.com/",
+          "https://link.springer.com.library.somaiya.edu/",
+        );
+  }
+  
+
       return url; // Return the modified URL
  
 }
