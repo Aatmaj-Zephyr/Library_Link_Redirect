@@ -25,7 +25,13 @@ function redirectURL(url) {
   else if (url.includes("link.springer.com")) {
         url = url.replace(
           "https://link.springer.com/",
-          "https://link.springer.com.library.somaiya.edu/",
+          "https://link-springer-com.library.somaiya.edu/",
+        );
+  }
+  else if (url.includes("sciencedirect.com")) {
+        url = url.replace(
+          "https://www.sciencedirect.com/",
+          "https://www-sciencedirect-com.library.somaiya.edu",
         );
   }
   
